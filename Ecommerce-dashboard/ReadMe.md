@@ -1,1 +1,4 @@
-![dashboard_preview](https://user-images.githubusercontent.com/67696956/229353540-2f060ffd-98b1-4716-8b58-0743145ea39d.gif)
+
+
+https://user-images.githubusercontent.com/67696956/229353583-eb22d06f-abb8-4ce6-8c47-c8df512faffb.mp4
+
