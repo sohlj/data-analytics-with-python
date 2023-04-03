@@ -1,4 +1,6 @@
-Interactive E-commerce dashboard is essential tool for business owner to play around with data and key indicator in a visualizable way. I am using this notebook to demonstrate how to build a dashboard using with Dash Plotly and Bootstrap components.
+
+### Introduction
+Interactive E-commerce dashboard is essential tool for business owner to play around with data and key indicator in a visualizable way. LiJ Jing is using this notebook to demonstrate how to build a dashboard using with Dash Plotly and Bootstrap components.
 
 Preview of dashboard
 
