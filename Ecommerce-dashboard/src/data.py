@@ -26,7 +26,7 @@ def product_cat(df, product_mainsub):
     df_customer = df[customer_profile]
 
     # Data preparation - Main Category
-    df_grouped = df_customer.groupby([product_mainsub, 'Gender']).size().to_frame('Count') # grouping data 
+    df_grouped = df_customer.groupby([product_mainsub, 'Gender']).size().to_frame('Count')  # grouping data 
     df_grouped.reset_index(inplace=True)
     df_grouped = df_grouped.pivot(index=product_mainsub, columns='Gender', values='Count') # pivot table
     df_grouped.reset_index(inplace =True)
@@ -35,4 +35,4 @@ def product_cat(df, product_mainsub):
     df_grouped['Percent_Female']=round(df_grouped['Female']/df_grouped['Total']*100)
 
 
-    return df_grouped
+    return df_grouped.sort_values(by=product_mainsub, ascending=False)
